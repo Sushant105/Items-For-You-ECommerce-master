@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+  background-color: #00A699;
+  font-size: 24px;
+}
+
+
+.navigation{
+  height: 80px;
+  background-color: #191414;
+  color: rgba(230, 219, 219, 0.932);
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lumanosimo', cursive;
+}
+
+.home{
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__menu{
+  width: 90%;
+  margin:  20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: white;
+} 
+
+
+
+
+.menu__searchBox input{
+  height: 40px;
+  width: 100%;
+}
+
+.home__menu span{
+  margin-bottom: 1rem;
+}
+
+
+.menu__slider{
+  width: 300px;
+}
+
+.menu__slider .slider{
+  width: 100%;
+}
+
+.menu__dropdown{
+  height: 40px;
+  width: 300px;
+  color: white;
+}
+
+.dropdown__input{
+  color: white !important;
+}
+
+.menu__dropdown .slider__select{
+  height: 40px;
+  width: 100%;
+  color: black;
+  background-color: aliceblue;
+}
+
+
+
+.slider__select::label{
+  color: white !important;
+}
+
+
+.home__content{
+  margin: 20px auto;
+  width: 80%;
+
+}
+
+.loading__spinner{
+  display: flex;
+  justify-content: center;
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product__card{
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  background-color: cadetblue;
+}
+
+.product_image{
+  object-fit: cover !important;
+}
+
+.product__title{
+  font-size: 1rem !important;
+  font-weight: bolder !important;
+  color: black !important;
+}
+
+.product__description{
+  font-size: 0.7rem !important;
+}
+
+.product__price{
+  font-size: 1rem !important;
+  font-weight: bolder !important;
+  color: black !important;
+}
+
+.product__buttons{
+  width: 100%;
+  display: flex;
+}
+
+.product__tags{
+  font-size: 0.5rem !important;
+  margin: 0.5rem 0;
+}
+
+.product__buttons Button {
+  font-size: 0.6rem !important;
+}
+
+.product__buttons Button:hover {
+  background-color: rgb(67, 67, 161);
+  color: #191414ce;
+}
+
